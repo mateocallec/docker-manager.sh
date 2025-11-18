@@ -11,7 +11,6 @@
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Commands](#commands)
 - [Configuration](#configuration)
 - [Contributing](#contributing)
 - [License](#license)
