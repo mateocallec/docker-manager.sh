@@ -63,21 +63,26 @@ If no command is provided, the script will prompt you for one.
 
 ### Available commands:
 
-- `init` – Initialize Docker username and project name
-- `login` – Log in to Docker registry
-- `pull` – Pull Docker image
-- `push` – Push Docker image
-- `build` – Build Docker image
-- `create` – Start containers (Docker Compose)
-- `close` – Stop containers (Docker Compose)
-- `recreate` – Restart containers (close + create)
-- `start` – Start stopped containers
-- `stop` – Stop running containers
-- `help` – Display help message
+| Commande   | Description                                 |
+| ---------- | ------------------------------------------- |
+| `init`     | Initialize Docker username and project name |
+| `login`    | Log in to Docker registry                   |
+| `pull`     | Pull Docker image                           |
+| `push`     | Push Docker image                           |
+| `build`    | Build Docker image                          |
+| `create`   | Start containers (Docker Compose)           |
+| `close`    | Stop containers (Docker Compose)            |
+| `recreate` | Restart containers (close + create)         |
+| `start`    | Start stopped containers                    |
+| `stop`     | Stop running containers                     |
+| `help`     | Display help message                        |
+
 
 ### Options:
 
-- `--env-file <path>` – Specify a custom `.env` file for Docker Compose (default: `/dev/null`)
+| Option              | Description                                                            |
+| ------------------- | ---------------------------------------------------------------------- |
+| `--env-file <path>` | Specify a custom `.env` file for Docker Compose (default: `/dev/null`) |
 
 ---
 
