@@ -1,6 +1,35 @@
 #!/bin/bash
 
-# docker-manager.sh - A professional Docker management script
+#===============================================================================
+#
+#       FILE: docker-manager.sh
+# 
+#       USAGE: ./docker-manager.sh <command> [--env-file <path>]
+# 
+#   DESCRIPTION: A professional Bash script for managing Docker projects.
+#                Supports Docker login, build, pull, push, and Docker Compose
+#                operations with an easy-to-use interface.
+# 
+#       OPTIONS: 
+#                init       - Initialize Docker username and project name
+#                login      - Log in to Docker registry
+#                pull       - Pull Docker image
+#                push       - Push Docker image
+#                build      - Build Docker image
+#                create     - Start containers (Docker Compose)
+#                close      - Stop containers (Docker Compose)
+#                recreate   - Restart containers (close + create)
+#                start      - Start stopped containers
+#                stop       - Stop running containers
+#                help       - Display this help message
+# 
+#   REQUIREMENTS: bash, docker, docker-compose, jq
+#       AUTHOR: Matéo Florian Callec
+#       LICENSE: MIT
+#       REPO: https://github.com/mateocallec/docker-manager.sh
+#
+#===============================================================================
+
 
 # Set the project directory
 PROJECT_DIR=$(pwd)
