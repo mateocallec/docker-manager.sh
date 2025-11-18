@@ -1,0 +1,5 @@
+# IDE-specific files and folders
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace

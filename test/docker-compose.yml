@@ -1,0 +1,9 @@
+services:
+  my_app:
+    build: .
+    container_name: my_app
+    volumes:
+      - ./script.py:/app/script.py
+    environment:
+      - MESSAGE=${MESSAGE}
+    command: python script.py
