@@ -40,8 +40,6 @@ git clone https://github.com/mateocallec/docker-manager.sh.git
 cd docker-manager.sh
 ```
 
-````
-
 2. Make the script executable:
 
 ```bash
@@ -133,4 +131,3 @@ GitHub: [mateocallec](https://github.com/mateocallec)
 ## Changelog
 
 See [CHANGELOG.md](CHANGELOG.md) for details.
-````
